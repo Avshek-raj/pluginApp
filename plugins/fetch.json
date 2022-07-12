@@ -1,0 +1,10 @@
+{
+  "avshek.sqlite": {
+    "source": {
+      "type": "local",
+      "path": "C:\\Storage\\avshek\\pluginApp\\node_modules\\avshek.sqlite"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,98 @@
+
+* {
+    
+}
+
+:root{
+    --ternary-color: rgb(3, 3, 97);
+}
+
+body {
+    background-color:#E4E4E4;
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+    font-size:12px;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: fit-content;
+    background-color: rgb(3, 3, 97);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-div-container{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon{
+    padding: 5px;
+}
+
+.main-btn{
+    
+}
+
+.heading{
+    background-color: var(--ternary-color);
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.heading h1{
+    
+}
+
+#newuser-form{
+    width: 50%;
+}
+
+#users-div{
+    width: 100%;
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+
+.user{
+    padding: 7px ;
+    border: 2px solid var(--ternary-color);
+    margin: 2px;
+    width: 95%;
+    box-shadow: black;
+}
+
+#clear-btn{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.btn-remove{
+
+}
